@@ -1,0 +1,21 @@
+# Scripts not included
+bed_to_gtf/bedToGenePred
+bed_to_gtf/genePredToGtf
+
+# Data not included
+data/COUNTS_DEC2021
+data/counts.2021.csv
+data/Hs_Ens89+2102_PS_seq_etc_hg38
+data/hg38.fa
+data/hg38.fa.fai
+
+
+# Results not included
+plots/*
+results/*
+
+# Dev residual files
+*.Rhistory
+*.ipynb_checkpoints
+DEA.old.Rmd
+SummaryResults.Human.Primate.Annotated.xlsx
