@@ -1,7 +1,7 @@
-# denovobs
+# Differential Expression Analysis of Unannotated Proteins in the BrainSpan RNA-Seq dataset
 
 
-Description of the expression analysis performed on the BrainSpan bulk mRNA-Seq dataset. The genes analysed where those identified as human and primate origin by a phylostratography analysis.  
+Description of the expression analysis performed on the BrainSpan bulk mRNA-Seq dataset. The genes analysed were those identified as human and primate origin by a phylostratography analysis.  
   
   
 # Data  
