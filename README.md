@@ -23,6 +23,8 @@ Downloadable from UCSC Tools:
 # Running
 
 ## First steps  
+
+### GTF files
 We need to create GTF files of the bed files in the annotation folder. This is done by bed_to_gtf/**bed_to_gtf_batch.sh**. You'll need the reference fasta files in the data folder.  
 Usage:  
 ```
@@ -35,6 +37,10 @@ Includes two methods (subfolders): manual conversion or GenePred-based conversio
 ```
 
 This will create folders with the GTF files of the beds in the folder. 
+
+### Dependencies  
+The analysis is performed in R using several packages. You can create a minimum conda environment using the ```create_env.sh ``` script, which can be used as a jupyter kernel to run the analysis. Jupyter (or any other method to run .ipynb files) won't be installed in the enviroment.
+
 
 ## Main script  
 You should be ready to run **DEA.ipynb**. The first chunks of the code define the options of the run, which can be used to modulate the output of the run.
