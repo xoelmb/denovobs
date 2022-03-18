@@ -9,7 +9,7 @@ Description of the expression analysis performed on the BrainSpan bulk mRNA-Seq 
 The data you need to run this analysis are:
 - data/**COUNTS**_DEC2021: folder containing counts per sample in text files, of the form {GENE_ID}\t{N_COUNTS}\n   
 - data/counts.2021.csv: CSV file of counts of all samples, created by the scripts    
-- data/**Hs_Ens89+2102_PS_seq_etc_hg38**: bed files and annotation of the genes mapped in the counts, including phylostartum
+- data/**Hs_Ens89+2102_PS_seq_etc_hg38**: bed files and annotation of the genes mapped in the counts, including phylostratum
 
 You need to download the reference fasta sequence:  
 - data/hg38.fa: genomic reference human sequence  
