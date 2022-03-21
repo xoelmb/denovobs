@@ -13,6 +13,7 @@ data/hg38.fa.fai
 # Results not included
 plots/*
 results/*
+updates
 
 # Dev residual files
 *.Rhistory
